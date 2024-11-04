@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left, #542c7a, #b99d4f, #af5261);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background: #f1f1f1;
+    border-radius: 15px;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.45s;
+}
+
+.card:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.20);;
+}
+
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3.5px solid #542c7a;
+}
+
+.position{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2{
+    color: #000;
+}
+
+.contact{
+    background-color: #7441a3;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.45s;
+}
+
+.contact:hover{
+    background-color: #b99d4f;
+}
+
+.socials{
+    display: inline-flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
